@@ -3158,10 +3158,25 @@ input, select, textarea {
 
 			#header .logo:active strong {
 				background-color: #e7b788;
+			} 
+
+
+			@media only screen and (min-device-width : 320px) and (max-device-width : 425px){ 
+				.logo-fpl { 
+					padding: 0.7em 0 0.7em 0;
+					width: 100px;
+				}
 			}
-			@media only screen and (min-device-width : 768px){ 
-				.mt-logo-5 {
-					margin-top: 5px !important;
+			@media only screen and (min-device-width : 426px) and (max-device-width : 768px){ 
+				.logo-fpl { 
+					padding: 0.9em 0 0.8em 0;
+					width: 100px;
+				}
+			}
+			@media only screen and (min-device-width : 769px) and (max-device-width : 2560px){ 
+				.logo-fpl {  
+					padding: 0.8em 0 0.8em 0;
+					width: 120px;
 				}
 			}
 
@@ -3417,7 +3432,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #000000;
+			background-color: #7d3e00;
 			content: '';
 			display: block;
 			height: 100%;
