@@ -26,8 +26,9 @@
 		<meta name="theme-color" content="#ffffff">
 
 
-		<!-- stylesheet -->
- 		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- stylesheet --> 
+		 <link rel="preload" as="style"    href="assets/css/main.css"  onload="this.onload=null;this.rel='stylesheet'"/>
+		 <noscript><link rel="stylesheet" href="assets/css/main.css" /></noscript>
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -227,7 +228,7 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.min.js" ></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
