@@ -3820,7 +3820,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background: rgba(36, 41, 67, 0.9);
+		background: rgb(169 96 6 / 90%);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
